@@ -1,0 +1,21 @@
+{% extends "structure.html" %}
+{% block twc %}
+<h4>Welcome to your account page</h4>
+<p>Add/Update your Personal Information below</p>
+<form action="" method="post">
+<fieldset>
+<legend>Personal Information</legend>
+    First Name: <input type="text" name="fname" size="50" placeholder="First Name" value="{{ request.form.fname }}">
+    <br><br>
+    Last Name: <input type="text" name="lname" size="50" placeholder="Last Name" value="{{ request.form.lname }}">
+    <br><br>
+    Date of Birth: <input type="text" name="dob" size="20" placeholder="Date of Birth" value="{{ request.form.dob }}">
+    <br><br>
+    Phone Number: <input type="text" name="phone_num" size="20" placeholder="Phone Number" value="{{ request.form.phone_num }}">
+    <br><br>
+    Address: <textarea type="text" name="address" rows="7" cols="40" placeholder="Address" value="{{ request.form.address }}"></textarea>
+    <br><br>
+    <input class="btn btn-default" type="submit" value="Submit">
+</fieldset>
+</form>
+{% endblock %}

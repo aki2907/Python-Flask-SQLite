@@ -1,0 +1,14 @@
+{% extends "structure.html" %}
+{% block twc %}
+    <div>
+      <h3>Sign Up Form</h3>
+      <br>
+      <form action="" method="post">
+        <input type="text" placeholder="Username" name="username" value="{{ request.form.username }}">
+        <br><br>
+        <input type="password" placeholder="Password" name="password" value="{{ request.form.password }}">
+        <br><br>
+        <input class="btn btn-default" type="submit" value="Sign Up">
+      </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    width: 80px;
+}
+ul li {
+    background: #ffccff;
+    padding: 10px;
+}
+a:link {
+    color: green;
+    text-decoration: none;
+}
+a:visited {
+    color: #cc3300;
+    text-decoration: none;
+}
+a:hover {
+    color: #002699;
+    text-decoration: underline;
+    background: #db70b8;
+}
+a:active {
+    color: #55552b;
+    text-decoration: underline;
+}
+h1 {
+    color: #009b77;
+    text-decoration: line-through;
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    color: #336699;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 36px;
+}
+h5 {
+    color: #990099;
+    font-size: 18px;
+    text-align: center;
+}
+p {
+    color: #7a7a52;
+    font-size: 28px;
+}
+.error {
+    color: red;
+}
+input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin-left: 10px;
+}
+input[type=text]:focus {
+    background-color: #3cbc8d;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 10px;
+}
+textarea[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin-left: 10px;
+}
+textarea[type=text]:focus {
+    background-color: #3cbc8d;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 10px;
+}
+input[type=password] {
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin-left: 10px;
+}
+input[type=password]:focus {
+    background-color: #3cbc8d;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 10px;
+}
